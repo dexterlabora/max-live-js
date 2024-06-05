@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "max4node": "^0.1.2",
+    "mqtt": "^5.3.5",
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "name": "mqtt-max4node",
+  "description": "This project integrates real-world MQTT sensor data from Cisco Meraki devices with Ableton Live, enabling dynamic music and sound effects control. Utilizing Ableton's Live Object Model (LOM) through the `max4node` library, the application facilitates executing actions within Ableton Live based on MQTT messages, ideal for interactive installations, performances, and educational purposes.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cory Guynn",
+  "license": "MIT"
+}
